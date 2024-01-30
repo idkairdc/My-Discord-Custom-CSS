@@ -1,0 +1,1 @@
+div[aria-label="Search"] { display: none; }
