@@ -349,28 +349,6 @@
      background-color: hsla(var(--spotify-vencord-color)/1);
   }
   
-  /* Spotify Covers Go Wheeeee */
-  /* profile */
-  #vc-spotify-player #vc-spotify-album-image {
-    border-radius: 50%;
-    border: 2px solid hsla(var(--spotify-vencord-color)/1);
-    animation: spin 15s linear infinite;
-    animation-play-state: paused;
-  }
-  body:has(.vc-spotify-pause) #vc-spotify-player #vc-spotify-album-image {
-    animation-play-state: running;
-    border: 2px solid hsla(var(--spotify-vencord-text)/1);
-  }
-  /* the animation  */
-  @keyframes spin {
-    from {
-      transform: rotate(0);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
   /* VC fix */
   
     /* VC container */
